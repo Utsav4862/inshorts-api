@@ -1,4 +1,4 @@
-# Inshort-api
+# Inshorts-api
 
 This is an unofficial api for inshort news app
 
