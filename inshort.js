@@ -29,7 +29,8 @@ async function news(req, res, next){
                 let date = card.find('span[clas="date"]').text()
                 let time = card.find('span[itemprop="datePublished"]').text();
                 let readMore = card.find('.source').attr('href');
-                
+                let newsSrc = card.find('.source').text();
+
                 if(imageSrc != undefined){
                     imageSrc = imageSrc.slice(23,imageSrc.length-2);
                     newsCards.push({
@@ -38,7 +39,8 @@ async function news(req, res, next){
                         content:content,
                         date:date,
                         time:time,
-                        readMoreLink:readMore
+                        newsSource: newsSrc,
+                        readMoreLink:readMore,
                     })
                 }
     
