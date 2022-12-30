@@ -10,7 +10,7 @@ Its **FREE** to use
 ```
   https://inshort-api2.herokuapp.com/inShort?category={categoryName}
 ```
-For Example: https://inshort-api2.herokuapp.com/inShort?category=all
+For Example: https://news-api-8ah0.onrender.com/inShort?category=all
 
 ## Categories
 
